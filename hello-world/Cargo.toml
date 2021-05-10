@@ -1,0 +1,18 @@
+[package]
+name = "hello-world"
+version = "0.1.0"
+authors = ["wiasliaw <leewei48750@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+borsh = "0.9.0"
+borsh-derive = "0.9.0"
+solana-program = "1.6.6"
+
+[dev-dependencies]
+solana-program-test = "=1.6.6"
+solana-sdk = "=1.6.6"
+
+[lib]
+name = "helloworld"
+crate-type = ["cdylib", "lib"]
