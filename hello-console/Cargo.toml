@@ -1,0 +1,18 @@
+[package]
+name = "hello-console"
+version = "0.1.0"
+authors = ["wiasliaw <leewei48750@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+solana-program = "1.6.10"
+thiserror = "1.0.25"
+
+[dev-dependencies]
+solana-program-test = "1.6.10"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[features]
+no-entrypoint = []
